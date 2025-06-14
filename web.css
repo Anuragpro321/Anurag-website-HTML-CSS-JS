@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+    width:100%;
+    background-image:url(dp.jpg);
+background-size: cover;
+background-position: center;
+height: 109vh;
+}
+.navbar{
+    display: flex;
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float:left;
+    height: 70px;
+}
+.logo{
+    margin-top: 20px;
+    color: orangered;
+    font-size: 30px;
+}
+.menu{
+    width:400px;
+    float:flex;
+    height: 70px;
+    color:white;
+}
+.menu ul{
+    float: left;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+     list-style: none;
+    margin-left:62px;
+    margin-top:27px;
+    font-size: 16px;
+    font-weight: 30px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+       color: white;
+}
+.menu ul li a:hover {
+        color:orangered;
+}
+.search{
+    display: flex;
+    margin-left: 20%;
+    color: white;
+}
+.search [type="text"]{
+    width: 250px;
+    margin-top:25px;
+    text-align:center ;
+    background: transparent;
+    color: white;
+    border-radius: 10px 10px;
+    border-color: orangered white;
+    border-width: 5px;
+}
+.search [type="text"]:hover{
+    border-color:white;
+}
+.button{
+    width: 80px;
+    height: 50px;
+    margin-top:25px;
+     border-radius: 10px 10px;
+     background: transparent;
+      border-color: orangered white;
+    border-width: 12px;
+    margin-left: 5px;
+}
+.button:hover {
+border-color: white;
+}
+.button i{
+    color: orangered;
+    font-size: 20px;
+}
+.button i:hover{
+    color: white;
+}
+.text{
+    display: flex;
+  color: white;  
+  text-align: center;
+  margin-left: 10%;
+margin-top:60px;
+}
+.h1{
+    display: block;
+    color: orangered;
+    text-align: center;
+    font-size: 40px;
+}
+.login-container {
+    display: block;
+  background: rgb(65, 64, 64);
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  color: white;
+  height: 300px;
+  margin-left: 50px;
+}
+
+.login-container h2 {   
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.login-container button:hover {
+  background-color: #ec3ab1;
+}
+.p{
+    color: white;
+    font-size: 30px;
+     margin-top: 20px;
+}
+.p1{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.p1:hover{
+color: orangered;
+}
+.b{
+    color: orangered;
+}
+.img{
+    height: 50px;
+    width: 150px;
+}
